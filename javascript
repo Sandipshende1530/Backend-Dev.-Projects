@@ -65,7 +65,37 @@ function saygoodbye(){
 greet('Alice',saygoodbye);
 
 
-program:
+program:object literals
+
+const person={
+    firstName:'john',
+    lastname:'doe',
+    age:'30',
+    isEmployed:true,
+    greet:function(){
+        console.log("hello");
+        
+    }
+};
+console.log(person.firstName)
+
+
+program= 
+const person={
+    firstName:'john',
+    lastname:'doe',
+    age:'30',
+    isEmployed:true,
+    greet:function(){
+        console.log("hello");
+        
+    }
+};
+for(let x in person){
+    console.log(`${x}: ${person[x]}`)
+    console.log(x)
+}
+ 
 
 
 
